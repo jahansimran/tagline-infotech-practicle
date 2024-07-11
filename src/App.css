@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
 }
 
 code {
@@ -50,4 +51,41 @@ code {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Filter CSS Starts */
+.main-container {
+  height: 100vh;
+
+}
+
+.upper-half-wrapper {
+  height: 50vh;
+  height: 50vh;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.inner-column {
+  margin: 10px;
+  width: 100%;
+  border-right: 2px solid #000;
+  padding: 20px;
+}
+
+.second-half-wrapper {
+  height: 50vh;
+}
+
+.search-bar {
+  border: none;
+  border-bottom: 1px solid #a19e9e;
+  outline: none;
+}
+
+.search-bar:focus {
+  border-bottom: none;
+  outline: none;
 }
